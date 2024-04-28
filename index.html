@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony Electronics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Sony Electronics</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <button id="contactBtn">Contact</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+            <img src="images/bravia.jpg" alt="Sony Bravia TV">
+            <h2>BRAVIA OLED TV</h2>
+            <p>Experience breathtaking picture quality with vibrant colors, deep blacks, and incredible contrast. Immerse yourself in the action with smooth motion and minimal blur, perfect for gamers and movie lovers alike.</p>
+            <div class="details">
+                <h3>More Details</h3>
+                <ul>
+                    <li>Cognitive Processor XR</li>
+                    <li>4K HDR Processor X1 Ultimate</li>
+                    <li>Triluminos Pro Display</li>
+                    <li>Dolby Atmos sound technology</li>
+                </ul>
+                <button class="learn-more">Learn More</button>
+            </div>
+        </section>
+        <section class="product">
+            <img src="images/wh1000xm5.jpg" alt="Sony WH-1000XM5 Wireless Headphones">
+            <h2>WH-1000XM5 Wireless Headphones</h2>
+            <p>Lose yourself in your music with industry-leading noise cancellation. Enjoy crystal clear audio with exceptional detail and powerful bass. The comfortable design with soft earcups ensures you can listen for hours on end.</p>
+            <div class="details">
+                <h3>More Details</h3>
+                <ul>
+                    <li>Industry-leading noise cancellation</li>
+                    <li>High-Resolution Audio with DSEE Extreme</li>
+                    <li>Adaptive Ambient Sound</li>
+                    <li>Up to 40 hours battery life</li>
+                </ul>
+                <button class="learn-more">Learn More</button>
+            </div>
+        </section>
+        <section class="contact-form" id="contactForm">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sony Electronics Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<style>
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    color: #3498db;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+main {
+    padding: 50px;
+    display: flex
